@@ -46,7 +46,11 @@ cat < file1
 
 cat < file2
 ## OUTPUT
+<<<<<<< HEAD
 )![alt text](img/2.png)
+=======
+![alt text](img/2.png)
+>>>>>>> fd3210cc704cec98bf8f2ac939289fe3f2f43cb9
 
 # Comparing Files
 cmp file1 file2
@@ -54,7 +58,11 @@ cmp file1 file2
  
 comm file1 file2
  ## OUTPUT
+<<<<<<< HEAD
 !![alt text](img/3.png)
+=======
+![alt text](img/3.png)
+>>>>>>> fd3210cc704cec98bf8f2ac939289fe3f2f43cb9
 
  
 diff file1 file2
